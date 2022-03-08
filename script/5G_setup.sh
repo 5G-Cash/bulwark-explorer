@@ -53,6 +53,7 @@ rpcuser=$rpcuser
 rpcpassword=$rpcpassword
 daemon=1
 txindex=1
+shrinkdebugfile=1
 EOL
 
 # Start node.
