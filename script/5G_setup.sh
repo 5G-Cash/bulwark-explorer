@@ -37,7 +37,7 @@ sudo apt update && sudo apt upgrade -y
 echo "Downloading 5G-CASH latest build..."
 wget -N https://github.com/5G-Cash/5G/releases/download/v1.2.2.0-unk/fiveg-u18-daemon.tar
 echo "Extracting build..."
-sudo tar -C /usr/local/bin -zxvf fiveg-u18-daemon.tar
+sudo tar -C /usr/local/bin -xvf fiveg-u18-daemon.tar
 echo "Setting permissions..."
 cd && sudo chmod +x /usr/local/bin/fiveg*
 sudo chmod +x /usr/local/bin/tor*
