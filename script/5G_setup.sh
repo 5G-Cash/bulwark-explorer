@@ -40,7 +40,6 @@ echo "Extracting build..."
 sudo tar -C /usr/local/bin -xvf fiveg-u18-daemon.tar
 echo "Setting permissions..."
 cd && sudo chmod +x /usr/local/bin/fiveg*
-sudo chmod +x /usr/local/bin/tor*
 echo "Creating .fiveg directory..."
 mkdir ~/.fiveg
 cd ~/.fiveg
